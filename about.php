@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="views/css/reset.css">
+        <link rel="stylesheet" href="views/css/templates.css">
+        <link rel="stylesheet" href="views/css/<?= $title ?>.css">
+        <title>花の秘密 | <?= strtoupper($title) ?></title>
+    </head>
+    <body>
+
+        <header>
+            <a href="homepage" class="logo">花の秘密</a>
+            <a href="basket" id="bag"><h6></h6><img src="views/img/icons/bag_white.png" alt=""></a>
+            <div id="burger"></div>
+        </header>
+
+        <div class="menu">        
+            <a href="blog" id="blog">blog - <em>ブログ</em></a>
+            <a href="products" id="products">products - <em>製品</em></a>
+            <a href="about" id="about">about us - <em>私たちに関しては</em></a>
+            <a href="contact" id="contact">contact - <em>連絡</em></a>
+        </div>
+
+        <figure id="hero"><img src="views/img/icons/hero.jpg" alt=""><h1>私たちに関しては</h1></figure>
+        
+        <main>
+            <section>
+                <h2>Our story</h2>
+                <div class="filet"></div>
+                <h3>私たちの物語</h3>
+                <div class="container">
+                    <article class="text">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, nostrum dicta? Omnis rerum, necessitatibus possimus earum aperiam cumque laborum eligendi eaque temporibus maiores fugiat! Eligendi ea dolore alias quaerat! Veniam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro illo et adipisci minima veritatis! Animi, ea mollitia odit quo velit voluptate distinctio reprehenderit laboriosam neque iste deserunt perspiciatis necessitatibus veniam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate quas eum temporibus a ex nostrum voluptas, nesciunt in deleniti iusto molestiae reiciendis perferendis placeat corporis, fugit vel explicabo molestias maiores? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, molestiae! Optio, magnam cum dicta at sint maxime aliquid earum rerum error voluptatibus odit excepturi explicabo doloremque ipsa tempore modi atque.</p>
+                        <p>あなたは船で旅行をしますか、飛行機でしますか。 日本人ならそんなことはけっしてしないでしょう。 ６ヵ月靴を買っていない。新しいのを買ってよい頃だ。 イルカは人間に次いで最も知能が高く、やがては彼らとの対話も夢ではないと考えている科学者もいる。 彼は、詩人ではなくて小説家だ。 ３人のうちの１人が芝刈り機で私の庭を大雑把にさっと刈り、もう一人が妻の庭の端の伸びた雑草をさっと２、３回刈り、残りの一人はトラックに上がってタバコをすっていた。 イルカは人間に次いで最も知能が高く、やがては彼らとの対話も夢ではないと考えている科学者もいる。 ああ、私は鳥であればよいのに。 いや駄目です。 イルカは頭のよい遊び好きな生き物だ。
+
+                        誰にでも長所と短所がある。 ７月の天候はだいたい暑い。 あら、申し訳ございません。 そこで私たちを待っている幸福が、私たちが望むような幸福ではないかもしれない。 あなたは大変上手にフランス語が話せる。私もあなたと同じくらい上手に話すことができればよいのに。 私は気が短いし、口も軽い男だ。 彼は約束を破った。 授業は八時三十分から始まるから。 「怒ると彼はトラになる」というのは隠喩の例である。 ７月の天候はだいたい暑い。</p>
+                    </article>
+                    <article class="photo">
+                        <figure><img src="views/img/team/portrait.jpg" alt=""></figure>
+                    </article>
+                </div>
+            </section>
+
+            <section>
+                <h2>From Japan to England</h2>
+                <div class="filet"></div>
+                <h3>日本からイギリスへ</h3>
+                <div class="container">
+                    <article class="photos">
+                        <figure><img src="views/img/team/love.jpg" alt=""></figure>
+                        <figure><img src="views/img/team/walk.jpg" alt=""></figure>
+                    </article>
+                    <article class="text">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, nostrum dicta? Omnis rerum, necessitatibus possimus earum aperiam cumque laborum eligendi eaque temporibus maiores fugiat! Eligendi ea dolore alias quaerat! Veniam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro illo et adipisci minima veritatis! Animi, ea mollitia odit quo velit voluptate distinctio reprehenderit laboriosam neque iste deserunt perspiciatis necessitatibus veniam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate quas eum temporibus a ex nostrum voluptas, nesciunt in deleniti iusto molestiae reiciendis perferendis placeat corporis, fugit vel explicabo molestias maiores? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, molestiae! Optio, magnam cum dicta at sint maxime aliquid earum rerum error voluptatibus odit excepturi explicabo doloremque ipsa tempore modi atque.</p>
+                        <p>あなたは船で旅行をしますか、飛行機でしますか。 日本人ならそんなことはけっしてしないでしょう。 ６ヵ月靴を買っていない。新しいのを買ってよい頃だ。 イルカは人間に次いで最も知能が高く、やがては彼らとの対話も夢ではないと考えている科学者もいる。 彼は、詩人ではなくて小説家だ。 ３人のうちの１人が芝刈り機で私の庭を大雑把にさっと刈り、もう一人が妻の庭の端の伸びた雑草をさっと２、３回刈り、残りの一人はトラックに上がってタバコをすっていた。 イルカは人間に次いで最も知能が高く、やがては彼らとの対話も夢ではないと考えている科学者もいる。 ああ、私は鳥であればよいのに。 いや駄目です。 イルカは頭のよい遊び好きな生き物だ。
+
+                        誰にでも長所と短所がある。 ７月の天候はだいたい暑い。 あら、申し訳ございません。 そこで私たちを待っている幸福が、私たちが望むような幸福ではないかもしれない。 あなたは大変上手にフランス語が話せる。私もあなたと同じくらい上手に話すことができればよいのに。 私は気が短いし、口も軽い男だ。 彼は約束を破った。 授業は八時三十分から始まるから。 「怒ると彼はトラになる」というのは隠喩の例である。 ７月の天候はだいたい暑い。</p>
+                    </article>
+                </div>
+            </section>
+            <section id="us">
+                <h2>Us</h2>
+                <div class="filet"></div>
+                <h3>我々</h3>
+                <div class="container">
+                    <article class="text">
+                        <div>
+                            <h4>Ogura Toshiaki</h4>
+                            <h5>おぐら としあき</h5>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, nostrum dicta? Omnis rerum, necessitatibus possimus earum aperiam cumque laborum eligendi eaque temporibus maiores fugiat! Eligendi ea dolore alias quaerat! Veniam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro illo et adipisci minima veritatis! Animi, ea mollitia odit quo velit voluptate distinctio reprehenderit laboriosam neque iste deserunt perspiciatis necessitatibus veniam? Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <p>イベントが成功したのは貴殿のたゆみ無い努力と献身のおかげです。 「ハムレット」はこれまでで最もおもしろい戯曲だと言われている。 肩慣らしには丁度いいかも。 もっと時間が必要だ。 きょう何を昼食に食べましたか。 いろいろな意味で、正直が最善の策であることは言うまでもない。 ３年前に東京へ来て以来ここに住んでいる。 彼氏が留置所に入って10日経ちました。 日本には美しい都市が多い。例えば京都、奈良だ。 １９８４年の８月、私は仕事でたまたま沖縄に行く事になった。</p></article>
+                    <article class="photo"><figure><img src="views/img/team/toshiaki_portrait.jpg" alt=""></figure></article>
+                </div>
+                <div class="pagination">
+                    <div class='black'></div>
+                    <div></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section class="contact">
+                <article id="newsletter">
+                    <h5>NEWSLETTER</h5>
+                    <form method="POST">
+                        <input type="text" name="name" placeholder="name - 名前" required>
+                        <input type="email" name="mail" placeholder="email - メール" required>
+                        <button type="submit" class="button">sign up</button>
+                    </form>
+                </article>
+                <div class="filet"></div>
+                <article id="icons">
+                    <a href="https://instagram.com"><img src="views/img/icons/instagram.svg" alt=""></a>
+                    <a href="https://twitter.com"><img src="views/img/icons/twitter.svg" alt=""></a>
+                    <a href="https://linkedin.com"><img src="views/img/icons/linkedin.svg" alt=""></a>
+                    <a href="https://facebook.com"><img src="views/img/icons/facebook.svg" alt=""></a>
+                </article>
+            </section>
+            <div class="filet"></div>
+            <section class="location">
+                <article id="map"><img src="views/img/icons/map.png" alt=""></article>
+                <article>
+                    <a href="#">3 Chome-1-24 Nakanagaocho, Kita Ward, Sakai, Osaka 591-8044, Japon</a>
+                    <a href="#">〒591-8044 大阪府堺市北区中長尾町３丁１−24</a>
+                </article>
+            </section>
+            <div class="filet"></div>
+            <div id="rights">
+                <a href="https://fr.wikipedia.org/wiki/Mentions_l%C3%A9gales">legal mentions</a>
+                <h6>&copy; 2021 all rights reserved</h6>
+            </div>
+        </footer>
+        
+        <script src="views/js/templates.js"></script>
+        <script src="views/js/about.js"></script>
+
+    </body>
+</html>
