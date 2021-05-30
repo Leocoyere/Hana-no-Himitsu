@@ -1,7 +1,7 @@
 let id = 0;
 
 var request_advices = new XMLHttpRequest();
-request_advices.open('GET', 'https://netlify.app/json/advices.json', true);
+request_advices.open('GET', 'https://hananohimitsu.netlify.app/json/advices.json', true);
 request_advices.onload = function() {
     if (this.status >= 200 && this.status < 400) {
 
@@ -37,7 +37,7 @@ request_advices.onerror = function() {
 request_advices.send();
 
 var request_flowers = new XMLHttpRequest();
-request_flowers.open('GET', 'https://netlify.app/json/flowers.json', true);
+request_flowers.open('GET', 'https://hananohimitsu.netlify.app/json/flowers.json', true);
 request_flowers.onload = function() {
 
     if (this.status >= 200 && this.status < 400) {
