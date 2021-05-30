@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "how to repot?",
+        "image": "img/advices/gardening_2.jpg"
+    },
+    {
+        "id": 2,
+        "title": "gardening in winter",
+        "image": "img/advices/winter.jpg"
+    },
+    {
+        "id": 3,
+        "title": "which fertilizers?",
+        "image": "img/advices/houseplants.jpg"
+    },
+    {
+        "id": 4,
+        "title": "avoid drowning",
+        "image": "img/advices/watercan.jpg" 
+    },
+    {
+        "id": 5,
+        "title": "mind the heatwave",
+        "image": "img/advices/heat_1.jpg"
+    },
+    {
+        "id": 6,
+        "title": "gardener tools",
+        "image": "img/advices/tools.jpg"
+    }
+]

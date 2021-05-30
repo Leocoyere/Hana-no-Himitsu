@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "name": "daisy",
+        "image": "img/flowers/species/daisy.jpg",
+        "views": 52
+    },
+    {
+        "id": 2,
+        "name": "rose",
+        "image": "img/flowers/species/rose.jpg",
+        "views": 65
+    },
+    {
+        "id": 3,
+        "name": "poppy",
+        "image": "img/flowers/species/poppy.jpg",
+        "views": 33
+    },
+    {
+        "id": 4,
+        "name": "geranium",
+        "image": "img/flowers/species/geranium.jpg",
+        "views": 27
+    },
+    {
+        "id": 5,
+        "name": "iris",
+        "image": "img/flowers/species/iris.jpg",
+        "views": 56
+    },
+    {
+        "id": 6,
+        "name": "lilac",
+        "image": "img/flowers/species/lilac.jpg",
+        "views": 78
+    },
+    {
+        "id": 7,
+        "name": "peony",
+        "image": "img/flowers/species/peony.jpg",
+        "views": 41
+    },
+    {
+        "id": 8,
+        "name": "marygold",
+        "image": "img/flowers/species/marygold.jpg",
+        "views": 87
+    },
+    {
+        "id": 9,
+        "name": "lavender",
+        "image": "img/flowers/species/lavender.jpg",
+        "views": 34
+    },
+    {
+        "id": 10,
+        "name": "azalea",
+        "image": "img/flowers/species/azalea.jpg",
+        "views": 29
+    },
+    {
+        "id": 11,
+        "name": "chrysanthemum",
+        "image": "img/flowers/species/chrysanthemum.jpg",
+        "views": 22
+    },
+    {
+        "id": 12,
+        "name": "dahlia",
+        "image": "img/flowers/species/dahlia.jpg",
+        "views": 74
+    },
+    {
+        "id": 13,
+        "name": "daffodil",
+        "image": "img/flowers/species/daffodil.jpg",
+        "views": 61
+    },
+    {
+        "id": 14,
+        "name": "sunflower",
+        "image": "img/flowers/species/sunflower.jpg",
+        "views": 68
+    },
+    {
+        "id": 15,
+        "name": "tulip",
+        "image": "img/flowers/species/tulip.jpg",
+        "views": 43
+    },
+    {
+        "id": 16,
+        "name": "aster",
+        "image": "img/flowers/species/aster.jpg",
+        "views": 37
+    },
+    {
+        "id": 17,
+        "name": "crocus",
+        "image": "img/flowers/species/crocus.jpg",
+        "views": 44
+    }
+]

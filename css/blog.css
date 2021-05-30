@@ -1,0 +1,520 @@
+/* MEDIUM SCREENS */
+
+@media screen and (min-width: 800px) {
+
+    /* MAIN */
+    main > section {
+        position: relative;
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+
+    main > section > h2 {
+        font-family: "Poppins";
+        font-size: 30px;
+    }
+
+    main > section > h3 {
+        color: #aaa;
+        margin-top: 5px;
+        font-family: "Noto Sans JP";
+        font-size: 24px;
+    }
+
+    .filet {
+        margin: 1% 0 0 0;
+        width: 100%;
+        height: 2px;
+        background-color: #e0e0e0;
+    }
+
+    main > section > .container {
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+    }
+
+    #slider {
+        overflow-x: hidden;
+        width: 100%;
+        display: grid;
+        grid-gap: 35px;
+        grid-template-columns: repeat(20, 260px);
+    }
+
+    section > .container > #slider > article {
+        position: relative;
+        display: grid;
+        grid-template-rows: 1fr 200px;
+        width: 100%;
+        height: 600px;
+        box-sizing: border-box;
+        transition: all ease-out 1s;
+    }
+
+    section > .container > #slider > article:nth-child(odd) {
+        margin: calc(40px + 17px + 50px) 0;
+    }
+
+    section > .container > #slider > article:nth-child(even) {
+        margin: calc(40px + 17px) 0;
+    }
+
+    section > .container > #slider > article > figure {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    section > .container > #slider > article > figure > img {
+        width: 100%;
+        height: auto;
+    }
+
+    section > .container > #slider > article > aside {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.05);
+        font-family: "Poppins";
+        padding: 5% 6%;
+        box-sizing: border-box;
+    }
+
+    section > .container > #slider > article > aside > h5 {
+        text-transform: capitalize;
+        color: #000;
+        font-size: 18px;
+    }
+
+    section > .container > #slider > article > aside > p {
+        margin: 10px 0 0 0 ;
+        color: #333;
+        font-size: 14px;
+    }
+
+    section > .container > #slider > article > aside > .button {
+        position: absolute;
+        bottom: calc(-20px - 35px);
+        left: calc(50% - 55px);
+    }
+
+    .arrow1 > img, .arrow2 > img {
+        width: 90%;
+    }
+
+    .arrow1 {
+        transform: rotate(180deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: calc(50% - 25px);
+        left: -60px;
+    }
+
+    .arrow2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: calc(50% - 25px);
+        right: -60px;
+    }
+
+    #month {
+        width: 100%;
+        height: 80vh;
+    }
+
+    #month > article {
+        margin: calc(40px) 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.05);
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #month > article > aside {
+        position: relative;
+        margin: 30px 30px;
+    }
+
+    #month h4 {
+        text-transform: capitalize;
+        font-family: "Poppins";
+        font-size: 24px;
+    }
+
+    #month p {
+        margin: 35px 0;
+        font-family: "Poppins";
+        font-size: 16px;
+    }
+
+    #month figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #month figure > img {
+        width: auto;
+        height: auto;
+    }
+
+    #most {
+        margin: 40px 0;
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(10%, 10);
+        grid-row: repeat(10%, 10);
+        grid-gap: 20px;
+    }
+
+    #most > article > figure {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    #most > article > figure > img {
+        width: 100%;
+        height: auto;
+    }
+
+    #most > article:nth-child(1) > figure > img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #most > article {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    #most > article > aside {
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5%;
+        box-sizing: border-box;
+    }
+
+    #most > article > aside > a {
+        position: relative;
+        width: 45px;
+        height: 45px;
+    }
+
+    #most > article > aside > a > img {
+        position: absolute;
+        z-index: 5;
+        width: 100%;
+    }
+
+    #most > article > aside > h4 {
+        text-transform: capitalize;
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 24px;
+    }
+
+    #most > article:nth-child(1) {
+        grid-area: 1 / 1 / 11 / 5;
+    }
+
+    #most > article:nth-child(2) {
+        grid-area: 1 / 5 / 6 / 11;
+    }
+
+    #most > article:nth-child(3) {
+        grid-area: 6 / 5 / 11 / 8;
+    }
+
+    #most > article:nth-child(4) {
+        grid-area: 6 / 8 / 11 / 11;
+    }
+}
+
+    
+/* SMALL SCREENS */
+
+@media screen and (max-width: 800px) {
+
+    /* MAIN */
+    main > section {
+        position: relative;
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+
+    main > section > h2 {
+        font-family: "Poppins";
+        font-size: 30px;
+    }
+
+    main > section > h3 {
+        color: #aaa;
+        margin-top: 5px;
+        font-family: "Noto Sans JP";
+        font-size: 24px;
+    }
+
+    .filet {
+        margin: 1% 0 0 0;
+        width: 100%;
+        height: 2px;
+        background-color: #e0e0e0;
+    }
+
+    main > section > .container {
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+    }
+
+    #slider {
+        overflow-x: hidden;
+        height: 550px;
+        width: 80%;
+        display: grid;
+        margin: auto;
+        grid-gap: 35px;
+        grid-template-columns: repeat(10, 100%);
+    }
+
+    section > .container > #slider > article {
+        position: relative;
+        display: grid;
+        grid-template-rows: 1fr 200px;
+        width: 100%;
+        height: 400px;
+        box-sizing: border-box;
+        transition: all ease-out 1s;
+        margin: 50px 0 0 0;
+    }
+
+    section > .container > #slider > article > figure {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section > .container > #slider > article > figure > img {
+        width: 100%;
+        height: max-content;
+    }
+
+    section > .container > #slider > article > aside {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.05);
+        font-family: "Poppins";
+        padding: 5% 6%;
+        box-sizing: border-box;
+    }
+
+    section > .container > #slider > article > aside > h5 {
+        color: #000;
+        font-size: 18px;
+    }
+
+    section > .container > #slider > article > aside > p {
+        margin: 10px 0 0 0 ;
+        color: #333;
+        font-size: 14px;
+    }
+
+    section > .container > #slider > article > aside > .button {
+        position: absolute;
+        bottom: calc(-20px - 35px);
+        left: calc(50% - 55px);
+    }
+
+    .arrow1 > img, .arrow2 > img {
+        width: 90%;
+    }
+
+    .arrow1 {
+        transform: rotate(180deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: calc(50% - 25px);
+        left: -7%;
+    }
+
+    .arrow2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: calc(50% - 25px);
+        right: -7%;
+    }
+
+    #month {
+        width: 100%;
+        height: auto;
+    }
+
+    #month > article {
+        margin: calc(40px) 0 70px 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.05);
+        height: auto;
+    }
+
+    #month > article > aside {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    #month h4 {
+        text-transform: capitalize;
+        font-family: "Poppins";
+        font-size: 24px;
+    }
+
+    #month p {
+        margin: 35px 0;
+        font-family: "Poppins";
+        font-size: 16px;
+    }
+
+    #month figure {
+        width: auto;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    #month figure > img {
+        width: 100%;
+    }
+
+    #month .button {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    #most {
+        margin: 40px 0;
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(auto, 2);
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-gap: 10px;
+    }
+
+    #most > article > figure {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    #most > article > figure > img {
+        width: auto;
+        height: 100%;
+    }
+
+    #most > article:nth-child(1) > figure > img, #most > article:nth-child(4) > figure > img {
+        height: auto;
+        width: 100%;
+    }
+
+    #most > article {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    #most > article > aside {
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5%;
+        box-sizing: border-box;
+    }
+
+    #most > article > aside > a {
+        position: relative;
+        width: 35px;
+        height: 35px;
+    }
+
+    #most > article > aside > a > img {
+        position: absolute;
+        z-index: 5;
+        width: 100%;
+    }
+
+    #most > article > aside > h4 {
+        text-transform: capitalize;
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 24px;
+    }
+
+    #most > article:nth-child(1) {
+        grid-area: 1 / 1 / 1 / 3;
+        background-color: #333;
+    }
+
+    #most > article:nth-child(2) {
+        grid-area: 2 / 1 / 2 / 1;
+        background-color: #555;
+    }
+
+    #most > article:nth-child(3) {
+        grid-area: 2 / 2 / 2 / 3;
+        background-color: #777;
+    }
+
+    #most > article:nth-child(4) {
+        grid-area: 3 / 1 / 3 / 3;
+        background-color: #999;
+    }
+}
