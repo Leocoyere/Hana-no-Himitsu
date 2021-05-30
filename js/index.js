@@ -1,6 +1,6 @@
 var request_advices = new XMLHttpRequest();
 
-request_advices.open('GET', 'https://netlify.app/json/advices.json', true);
+request_advices.open('GET', 'https://hananohimitsu.netlify.app/json/advices.json', true);
 
 request_advices.onload = function() {
 
@@ -36,7 +36,7 @@ request_advices.send();
 
 var request_bouquets = new XMLHttpRequest();
 
-request_bouquets.open('GET', 'https://netlify.app/json/bouquets.json', true);
+request_bouquets.open('GET', 'https://hananohimitsu.netlify.app/json/bouquets.json', true);
 
 request_bouquets.onload = function() {
 
