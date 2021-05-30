@@ -22,7 +22,7 @@ if ( storage.length > 0 ) {
         
         let article = document.createElement("article")
 
-        article.appendChild(document.createElement("figure")).appendChild(document.createElement("img")).src = "views/" + result["image"]
+        article.appendChild(document.createElement("figure")).appendChild(document.createElement("img")).src = result["image"]
 
         let div = document.createElement("div")
         div.setAttribute('class', i)
