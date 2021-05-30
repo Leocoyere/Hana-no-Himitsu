@@ -3,7 +3,7 @@ document.querySelector("#bag > h6").innerHTML = storage.length
 
 var request_bouquets = new XMLHttpRequest();
 
-request_bouquets.open('GET', 'https://hananohimitsu.netlify.app/json/bouquets.json', true);
+request_bouquets.open('GET', 'https://netlify.app/json/bouquets.json', true);
 
 request_bouquets.onload = function() {
 
@@ -16,7 +16,7 @@ request_bouquets.onload = function() {
             let article = document.createElement("article")
             
             let image = document.createElement("img")
-            image.src = "views/" + result[index]["image"]
+            image.src = result[index]["image"]
             image.alt = "Flowers bouquet"
             
             article.appendChild(document.createElement("figure")).appendChild(image)

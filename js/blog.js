@@ -1,7 +1,7 @@
 let id = 0;
 
 var request_advices = new XMLHttpRequest();
-request_advices.open('GET', 'http://localhost/plants/json/advices.json', true);
+request_advices.open('GET', 'https://netlify.app/json/advices.json', true);
 request_advices.onload = function() {
     if (this.status >= 200 && this.status < 400) {
 
@@ -12,7 +12,7 @@ request_advices.onload = function() {
             let article = document.createElement('article')
             article.classList.add("advice")
             let image = document.createElement("img")
-            image.src = "views/" + result[index]["image"]
+            image.src = result[index]["image"]
             image.alt = "Image advice"
 
             article.appendChild(document.createElement("figure")).appendChild(image)
@@ -37,7 +37,7 @@ request_advices.onerror = function() {
 request_advices.send();
 
 var request_flowers = new XMLHttpRequest();
-request_flowers.open('GET', 'http://localhost/plants/json/flowers.json', true);
+request_flowers.open('GET', 'https://netlify.app/json/flowers.json', true);
 request_flowers.onload = function() {
 
     if (this.status >= 200 && this.status < 400) {
@@ -56,7 +56,7 @@ request_flowers.onload = function() {
         article.appendChild(aside)
 
         let image = document.createElement("img")
-        image.src = "views/" + result[5]["image"]
+        image.src = result[5]["image"]
         image.alt = "Flower image"
 
         article.appendChild(document.createElement("figure")).appendChild(image)
@@ -68,7 +68,7 @@ request_flowers.onload = function() {
             let article = document.createElement('article')
 
             let image1 = document.createElement("img")
-            image1.src = "views/" + result[index]["image"]
+            image1.src = result[index]["image"]
             image1.alt = "Flower image"
 
             article.appendChild(document.createElement("figure")).appendChild(image1)
@@ -77,7 +77,7 @@ request_flowers.onload = function() {
             aside.appendChild(document.createElement("h4")).innerHTML = result[index]["name"]
 
             let image2 = document.createElement("img")
-            image2.src = "views/img/icons/arrow_white.png"
+            image2.src = "img/icons/arrow_white.png"
             image2.alt = "Flower image"
             image2.classList.add("arrow")
 

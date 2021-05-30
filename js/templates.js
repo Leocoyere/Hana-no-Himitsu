@@ -9,12 +9,12 @@ document.querySelector("#burger").addEventListener('click', () => {
 });
 
 document.querySelector("#bag").addEventListener('mouseenter', () => {
-    document.querySelector("#bag > img").src = "views/img/icons/bag_black.png";
+    document.querySelector("#bag > img").src = "img/icons/bag_black.png";
     document.querySelector("#bag > h6").innerHTML = storage.length;
 });
 
 document.querySelector("#bag").addEventListener('mouseleave', () => {
-    document.querySelector("#bag > img").src = "views/img/icons/bag_white.png";
+    document.querySelector("#bag > img").src = "img/icons/bag_white.png";
     document.querySelector("#bag > h6").innerHTML = storage.length;
 });
 

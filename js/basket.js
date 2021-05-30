@@ -54,11 +54,11 @@ document.querySelector(".container").appendChild(div)
 
 document.querySelectorAll(".container > article > aside > img").forEach(element => {
     element.addEventListener('mouseover', () => {
-        element.src = "views/img/icons/cross_full.png"
+        element.src = "img/icons/cross_full.png"
     })
 
     element.addEventListener('mouseout', () => {
-        element.src = "views/img/icons/cross_empty.png"
+        element.src = "img/icons/cross_empty.png"
     })
 
     element.addEventListener('click', () => {
