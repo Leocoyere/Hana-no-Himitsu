@@ -3,7 +3,7 @@ document.querySelector("#bag > h6").innerHTML = storage.length
 
 var request_bouquets = new XMLHttpRequest();
 
-request_bouquets.open('GET', 'http://localhost/plants/json/bouquets.json', true);
+request_bouquets.open('GET', 'https://hananohimitsu.netlify.app/json/bouquets.json', true);
 
 request_bouquets.onload = function() {
 
