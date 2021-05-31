@@ -436,7 +436,7 @@
     }
 
     .container > article > aside {
-        grid-area: 1 / 1 / 2 / 2;
+        grid-area: 1 / 1 / 2 / 3;
         display: flex;
         justify-content: left;
         align-items: center;
